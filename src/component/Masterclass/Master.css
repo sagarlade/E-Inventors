@@ -1,0 +1,210 @@
+/* MASTER CLASS SECTION */
+.ecomclass {
+  overflow-x: hidden;
+}
+.master_class {
+  background-color: rgba(228, 235, 232, 0.737);
+  padding: 4rem;
+  text-align: center;
+}
+.master_h {
+  color: black;
+}
+.class_m {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 85%;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.master_c_img img {
+  height: 56vh;
+  width: 100%;
+  margin-left: -12px;
+  margin-top: -0.5px;
+  border-radius: 10px;
+  transition: all 1000ms;
+}
+.master_c_img:hover img {
+  transform: scale(1.02);
+  filter: brightness(0.5);
+}
+.e-com_master {
+  font-size: 30px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.link_e {
+  text-decoration: none;
+  color: #000000;
+}
+.link_e:hover {
+  color: #ddbf93;
+}
+.e-com_info {
+  font-size: 16px;
+  width: 70%;
+}
+.price {
+  font-size: 18px;
+  font-weight: 400;
+}
+.book_btn {
+  border: 1px solid skyblue;
+  width: 35%;
+  text-align: center;
+  padding: 7px;
+  background-color: #00aeef;
+  cursor: pointer;
+}
+.book_btn .b_b {
+  text-decoration: none;
+  color: #000000;
+}
+.book_btn:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .master_c_img img {
+    margin: 0 auto;
+  }
+  .master_class {
+    padding: 5rem;
+  }
+  .d_sq1 {
+    padding: 2rem;
+  }
+  .book_btn {
+    width: 35%;
+  }
+}
+@media (max-width: 1440px) {
+  .book_btn {
+    width: 50%;
+  }
+}
+
+/* END MASTERCLASS */
+
+/* ECOMCLASS CSS */
+.ecomclass, .smmclass{
+  overflow-x: hidden;
+}
+.ectitle {
+  color: black;
+  font-size: 45px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.ecp {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 300;
+}
+.ecdata {
+  display: flex;
+  width: 35%;
+  height: 55px;
+  margin: 30px 0;
+}
+.hours,
+.ecprice,
+.mode {
+  border: 0.1px solid black;
+  width: 6rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 13px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.ec_btn {
+  border: 1px solid slategrey;
+  padding: 8px;
+  width: 15%;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.ec_b {
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+}
+.ec_b:hover {
+  color: black;
+}
+.ec_btn:hover {
+  background-color: #00aeef;
+}
+
+.desc_title,
+.ec_cont {
+  font-size: 30px;
+  font-weight: 300;
+}
+.desc_pq3 {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 300;
+}
+.ec_contact {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .ectitle {
+    font-size: 30px;
+  }
+  .ecp {
+    font-size: 15px;
+  }
+  .ecdata {
+    width: 70%;
+  }
+  .hours,
+  .ecprice,
+  .mode {
+    padding: 10px 10px;
+    font-size: 15px;
+  }
+  .ec_btn{
+    width: 25%;
+  }
+  .desc_title,
+.ec_cont{
+  font-size: 25px;
+}
+}
+
+@media (max-width: 992px) {
+  .ectitle {
+    font-size: 35px;
+  }
+
+  .ecdata {
+    width: 70%;
+  }
+  .hours,
+  .ecprice,
+  .mode {
+    padding: 10px 10px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 410px){
+  .ec_btn{
+    width: 30%;
+  }
+  .ec_b{
+    font-size: 14px;
+  }
+  .ectitle {
+    font-size: 25px;
+  }
+}

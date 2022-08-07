@@ -1,0 +1,65 @@
+@media (max-width:1024px) {
+    .h3_head {
+        font-size: 2.5rem;
+    }
+}
+
+
+@media (max-width:768px) {
+    .navbar-brand img {
+        width: 34rem;
+        ;
+    }
+
+    .navbar-brand {
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        margin: 20px 0 0 20px;
+    }
+
+    .h3_head {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .banner {
+        height: auto;
+    }
+
+    .btn-started {
+        margin-left: 10px;
+    }
+    .map_section img{
+        height: 60vh;
+        width: 100%;
+        margin-top: 6rem;
+    }
+    
+  
+}
+
+@media (max-width:567px) {
+    .h3_head {
+        font-size: 2rem;
+    }
+
+    .banner {
+        height: auto;
+    }
+
+    .h_3 img {
+        margin-top: 2rem;
+    }
+
+    .h3_head {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .h_2 {
+        margin-top: 3rem;
+    }
+
+}

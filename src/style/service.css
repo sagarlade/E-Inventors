@@ -1,0 +1,235 @@
+/* your CSS goes here*/
+.title_service {
+    color: black;
+    margin: 40px 0;
+    position: relative;
+    text-align: center;
+    font-family: 'Montagu Slab', serif;
+    font-size: 3.4375rem;
+    line-height: 1.1;
+}
+
+
+/* services */
+.pd {
+    padding: 40px;
+    position: relative;
+    height: 100%;
+}
+
+.pd .square {
+    height: 100px;
+    width: 100px;
+    margin: 30px auto 40px;
+    position: relative;
+    border-radius: 15px;
+    transform: rotate(45deg);
+    padding: 10px;
+    background-color: #7499f1;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+    border: 2px dotted #eaf3fa;
+}
+
+.square img {
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
+}
+.square img:hover{
+    opacity: 0.7;
+  -webkit-transform:scale(1.15);
+  -moz-transform:scale(1.15);
+  -ms-transform:scale(1.15);
+  -o-transform:scale(1.15);
+  transform:scale(1.15);
+
+}
+.pd .square::before {
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #fa9746;
+    content: '';
+}
+
+.pd .square::after {
+    position: absolute;
+    left: 50px;
+    top: 66px;
+    width: 1px;
+    height: 88%;
+    background-color: #fa9746;
+    content: '';
+    transform: rotate(90deg);
+}
+
+.pd .serv .num {
+    width: 60px;
+    height: 60px;
+    background-color: #7499f1;
+    box-shadow: 0px 0px 15px 0px #00a9d3;
+    margin: -38px auto 15px auto;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 30px;
+    padding-top: 7px;
+    border: 1px dashed;
+}
+
+.pd .serv h5 {
+    color: #070707;
+    font-size: 25px;
+}
+
+.pd .serv p {
+    color: #777;
+}
+
+.pd .serv hr {
+    width: 30px;
+    border-top: 3px solid rgb(0 169 211);
+}
+
+
+/* SERVICES PAGES */
+
+.services_serv{
+    background: url(https://wallpapercave.com/wp/wp1912986.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    
+}
+.serv_heading{
+    font-size: 55px;
+    color: rgba(18, 14, 14, 0.866);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 8rem;
+}
+.serv_i_text{
+    font-size: 23px;
+    text-align: center;
+    color: rgb(7, 7, 7);
+    margin-top: 5px;
+}
+.buttontoolbar{
+    text-decoration: none;
+    color: black;
+    font-size:18px;
+    padding: 10px;
+}
+.buttontoolbar:hover{
+    color: rgb(28, 150, 237);
+}
+
+
+
+@media (max-width:768px){
+
+    .serv_heading{
+        font-size: 35px;
+    }
+    .serv_i_text{
+        font-size: 17px;
+    }
+}
+
+
+
+
+/* Social-Media Ads */
+
+.social-media_ads{
+    background: url(../assest/service/social-media-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    filter: brightness(95%);
+}
+.social_media_title{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.social_media_text{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.social_info{
+
+    margin-top: 3rem;
+}
+.social_m{
+    font-size: 50px;
+    color: rgba(1, 1, 1, 0.797);
+    text-align: center;
+    justify-content: center;
+    background-color: aquamarine;
+    padding: 20px 20px;
+}
+.info_media{
+    font-size: 17px;
+    line-height: 22px;
+}
+.s_media_l{
+    background-color: rgb(101, 184, 156);
+    width: 25%;
+    text-align: center;
+    padding: 10px 0;
+    justify-content: center;
+    margin: 50px auto;
+}
+.experts{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+.best_media{
+    font-size: 22px;
+    line-height: 25px;
+    color: #00a9d3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .social_media_title{
+        font-size: 35px;
+    }
+    .social_media_text{
+        font-size: 16px;
+    }
+    .social_m{
+        font-size: 35px;
+    }
+    .experts{
+
+    }
+    .s_media_l{
+        width: 57%;
+    }
+    .best_media{
+
+    }
+    .info_media{
+        font-size: 15px;
+    }
+}
+@media (max-width:992px){
+    .s_media_l{
+        width: 57%;
+    }
+}
+
+
