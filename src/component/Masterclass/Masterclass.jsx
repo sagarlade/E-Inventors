@@ -1,7 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Ecomclass from "./Ecomclass";
-import SmmClass from "./SocialMClass";
 import './Master.css';
 const Masterclass = () => {
   return (
@@ -56,7 +54,7 @@ const Masterclass = () => {
                   <hr />
                   <div className="price mt-3">$1000</div>
                   <div className="book_btn mt-4">
-                    <NavLink to="#" className="b_b">
+                    <NavLink to="/main" className="b_b">
                       Book Now
                     </NavLink>
                   </div>
@@ -88,7 +86,7 @@ const Masterclass = () => {
                   <hr />
                   <div className="price mt-3">$500</div>
                   <div className="book_btn mt-4">
-                    <NavLink to="#" className="b_b">
+                    <NavLink to="/main" className="b_b">
                       Book Now
                     </NavLink>
                   </div>
@@ -101,6 +99,6 @@ const Masterclass = () => {
       </section>
     </>
   );
-};
+}
 
 export default Masterclass;

@@ -12,6 +12,7 @@ import SocialMedia from './component/Services/SocialMedia';
 import Masterclass from './component/Masterclass/Masterclass';
 import Ecomclass from './component/Masterclass/Ecomclass';
 import SmmClass from './component/Masterclass/SocialMClass';
+import Main from './component/Booking/Main';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route exact path="/masterclass" element={ <Masterclass/> } />
         <Route exact path="/ecomclass" element={ <Ecomclass/> } />
         <Route exact path="/smmclass" element={ <SmmClass/> } />
+        <Route exact path="/main" element={ <Main/> } />
       </Routes>
     </div>
     <Footer />

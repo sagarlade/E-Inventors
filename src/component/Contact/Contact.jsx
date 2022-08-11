@@ -30,7 +30,7 @@ const Contact = () => {
                       <div className="input_main">
                         <div className="container">
                           <form
-                            action="https://formsubmit.co/sagarlade07@gmail.com"
+                            action="http://localhost:8000/contact.php"
                             method="POST"
                           >
                             <div className="form-group">
@@ -54,10 +54,10 @@ const Contact = () => {
                             <div className="form-group">
                               <input
                                 type="text"
-                                id="mobile"
+                                id="phone"
                                 className="email-bt"
                                 placeholder="PHONE NUMBER"
-                                name="Email"
+                                name="Phone Number"
                               />
                             </div>
                             <input
@@ -72,9 +72,9 @@ const Contact = () => {
                             ></input>
                             <div className="form-group">
                               <textarea
-                                className="massage-bt"
-                                id="massage"
-                                placeholder="MASSAGE"
+                                className="message-bt"
+                                id="message"
+                                placeholder="MESSAGE"
                                 rows="5"
                                 name="text"
                               ></textarea>

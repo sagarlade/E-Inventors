@@ -577,3 +577,46 @@ FOOTER SECTION */
 /* END  OF ABOUT SECTION */
 
 
+/* BOOKING STYLE SHEET */
+
+.d_s {
+  text-align: center;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.demo{
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+.demo .react-datepicker-wrapper {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.demo .react-datepicker-wrapper input {
+  padding: 40px 12px;
+}
+.d_btn{
+  width: 70%;
+}
+
+Button{
+  padding: 10px;
+  border: 1px solid lightblue;
+}
+.ss_d > .d_qr{
+  font-size: 20px;
+  margin-top: 10px;
+}
+textarea{
+  width: 100%;
+}
+/* END BOOKING STYLESHEET */
